@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg-container {
+  margin: 130px;
+}
+.Introduction-Container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 30px;
+}
+.Balance-expense-income {
+  display: flex;
+  flex-direction: row;
+}
+img {
+  height: 60px;
+  margin: 10px;
+}
+
+.Balance-container {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  background-color: #ecfccb;
+  margin-right: 50px;
+}
+.Income-container {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  background-color: #cffafe;
+  margin-right: 50px;
+}
+.expenses-container {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  background-color: #ede9fe;
+}
+.form {
+  padding: 60px;
+}
+.table-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid;
+}
+.table-header-cell {
+  margin-right: 20px;
+}
+.Transaction-histroy {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
